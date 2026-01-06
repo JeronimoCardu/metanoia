@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: shadow;
+  src: url("public/fonts/ShadowsIntoLightTwo-Regular.ttf");
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: shadow;
+}
+
+@theme {
+  --color-pink: #fbe2fb;
+  --color-green: #205116;
+  --color-purple: #bd5ba7;
+}
