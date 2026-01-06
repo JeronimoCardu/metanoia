@@ -15,10 +15,16 @@ body,
   padding: 0;
   margin: 0;
   font-family: shadow;
+  overflow-x: hidden;
+  background-color: var(--color-pink);
 }
 
 @theme {
   --color-pink: #fbe2fb;
   --color-green: #205116;
   --color-purple: #bd5ba7;
+}
+
+.marginDefault{
+  margin: 0 1.5rem;
 }
