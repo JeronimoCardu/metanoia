@@ -25,6 +25,8 @@ body,
   --color-purple: #bd5ba7;
 }
 
-.marginDefault{
-  margin: 0 1.5rem;
+.marginDefault {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
+

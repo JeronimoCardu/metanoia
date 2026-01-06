@@ -11,9 +11,9 @@ export default function Hero() {
         Conectá con lo esencial y llevá equilibrio, intención y belleza a tu día
         a día.
       </h2>
-      <button className="border-purple my-10 rounded-full border-2 p-2">
-        <IoArrowDown className="text-purple size-15" />
-      </button>
+      <a href="#products" className="mx-auto my-10 block w-fit">
+        <IoArrowDown className="text-purple border-purple mx-auto my-10 size-15 rounded-full border-2 p-2" />
+      </a>
     </section>
   );
 }
