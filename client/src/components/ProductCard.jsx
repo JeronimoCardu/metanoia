@@ -1,7 +1,15 @@
+import useStore from "../hooks/useStore.jsx";
+
 export default function ProductCard({ product }) {
+  const setProductModal = useStore((state) => state.setProductModal);
   return (
     <>
-      <div className="border-green relative cursor-pointer rounded-lg border p-4 shadow-xl">
+      <div
+        onClick={() => {
+          setProductModal({ view: true, edit: false, productId: product.id });
+        }}
+        className="border-green relative cursor-pointer rounded-lg border p-4 shadow-xl"
+      >
         <img
           src={product.imageUrl}
           alt={product.name}
